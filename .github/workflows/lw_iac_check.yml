@@ -49,6 +49,8 @@ jobs:
 
              docker run --env-file env.list -v "$(pwd):/app/src" lacework/codesec-iac:latest
 
+             echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
+
         env:
 
           LW_ACCOUNT: ${{ secrets.LW_ACCOUNT }}
