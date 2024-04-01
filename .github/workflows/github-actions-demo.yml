@@ -26,7 +26,6 @@ jobs:
           path: ${{ github.run_id }}.output.log
       - name: Update Summary
         uses: actions/
-        run: echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY |
-        echo "https://docs.lacework.net/" >> $GITHUB_STEP_SUMMARY
+        run: echo "### Hello world! :rocket: link to docs http://www.google.com" >> $GITHUB_STEP_SUMMARY
 
     
