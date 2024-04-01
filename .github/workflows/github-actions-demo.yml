@@ -14,15 +14,12 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: List files in the repository
         run: |
-          ls ${{ github.workspace }}
+          ls ${{ github.workspace }} > ${{ github.ref }}.output.log
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - shell: bash
-        run: |
-          expr 1 + 1 > output.log
       - name: Upload output file
         uses: actions/upload-artifact@v4
         with:
           name: output-log-file
-          path: output.log
+          path: ${{ github.ref }}.output.log
 
     
