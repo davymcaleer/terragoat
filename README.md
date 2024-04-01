@@ -1,6 +1,6 @@
 # TerraGoat - Vulnerable Terraform Infrastructure
 
-![example workflow](https://github.com/davymcaleer/terragoat/.github/actions/workflows/github-actions-demo.yml/badge.svg)
+![example workflow](https://github.com/davymcaleer/terragoat/actions/workflows/github-actions-demo.yml/badge.svg)
 
 
 TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository. Check99
