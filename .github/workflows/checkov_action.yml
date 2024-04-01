@@ -33,7 +33,7 @@ jobs:
         with:
           # This will add both a CLI output to the console and create a results.sarif file
           output_format: cli,sarif
-          output_file_path: console,results.sarif
+          output_file_path: results.sarif
 
       - name: Archive results artifacts
         uses: actions/upload-artifact@v4
@@ -47,4 +47,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: code-checkov-report
-          path: output/test/results.sarif
+          path: results.sarif
