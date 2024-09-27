@@ -3,7 +3,7 @@
 ![example workflow](https://github.com/davymcaleer/terragoat/actions/workflows/github-actions-demo.yml/badge.svg)
 
 
-TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository. Check99
+TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository. Check101
 ![Terragoat](terragoat-logo.png)
 
 TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository. Check 123
